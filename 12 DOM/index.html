@@ -6,8 +6,64 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>Hello</h1>
+    <h1 id="title">Hello</h1>
+    
+    <input type="checkbox">
+
+    <button class="btn">Click Me</button>
+    
+    <ul id="list">
+        <li class="list">
+            <a href="https://www.google.com">Google</a>
+            </li>
+            <li class="list">Second</li>
+            <li class="list">Third</li>
+    </ul>
 
     <script src="index.js" charset=""utf-8></script>
 </body>
 </html>
+
+<!-- 
+    ***Console browser***
+
+
+    - Selecting HTML elements with JS:
+    document.getElementsByTagName("li");
+    document.getElementsByTagName("li")[1].style.color = "pink";
+    document.getElementsByTagName("li").length;
+    document.getElementsByClassName("btn");
+    document.getElementById("list");
+
+
+
+
+
+
+
+
+    - Manipulating and changing styles of HTML elements with JS:
+    document.querySelector("h1").style.color = "red";
+    document.querySelector("h1").style.fontSize = "10rem";
+    document.querySelector("button").style.backgroundColor = "yellow";
+
+
+
+    - The separation of concerns: structure vs style vs behaviour:
+    document.querySelector("button");
+    document.querySelector("button").classList;
+    document.querySelector("button").classList.add("invisible");
+    document.querySelector("button").classList.remove("invisible");
+    document.querySelector("button").classList.toggle("invisible");
+    document.querySelector("h1").classList.add("header");
+
+
+
+    - Text manipulatiion and text content property:
+    document.querySelector("h1").innerHTML = "<em>Good Bye</em>";
+
+    - Manipulating HTML Element Attributes:
+    document.querySelector("a").setAttribute("href", "https://www.gmail.com");
+
+
+-->
