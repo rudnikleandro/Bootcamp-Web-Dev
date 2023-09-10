@@ -1,4 +1,4 @@
-//jQuery animate example, limit to numerical values
+//jQuery slideup, slidedown and animate example
 $("button").click(function() {
     $("h1").slideUp().slideDown().animate({opacity: 0.5});
 });
