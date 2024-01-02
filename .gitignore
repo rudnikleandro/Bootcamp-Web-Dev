@@ -1,2 +1,5 @@
 # Ignorar arquivos :Zone.Identifier
 **/*.Identifier
+
+# Ignorar arquivos node_modules
+node_modules
